@@ -1,5 +1,6 @@
 import Post from '../common/Post'
 
+
 const Feed = () => {
   return(
     <Post/>
