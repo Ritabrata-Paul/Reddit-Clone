@@ -1,4 +1,5 @@
 import Vote from '../feed/Vote'
+import Actions from '../feed/Actions'
 
 const style = {
   post : 'flex flex-col space-y-1 cursor-pointer',
@@ -16,7 +17,7 @@ const Post = () => {
       
       <h1 className = {style.postTitle}>How many aptitude questions are there in the aptitude test?</h1>
       <p1 className = {style.postContent}>More than 1000 aptitude questions and answers for freshers who are preparing for interviews and placements after graduation and master degree courses. Many online aptitude tests and quizzes available to gauge your readiness to face the competitive exams.</p1>
-      
+      <Actions />
     </div>
     </div>
   )
